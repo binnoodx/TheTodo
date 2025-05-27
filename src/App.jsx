@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { Bounce, ToastContainer, toast } from 'react-toastify';
 import { v4 as uuidv4 } from 'uuid';
 import './App.css'
-import { Analytics } from '@vercel/analytics/react';
+
 import Navbar from './components/Navbar'
 function App() {
 
@@ -94,7 +94,8 @@ function App() {
   };
 
   // Toast Run when todo is completed
-  const done = () => toast.success(' 🎉 Yay! You Have Done it.', {
+  const done = () =>
+     toast.success(' 🎉 Yay! You Have Done it.', {
     position: "bottom-center",
     autoClose: 2000,
     hideProgressBar: false,
@@ -193,7 +194,7 @@ function App() {
         })}
       </div>
       <h1 className='copyright fixed bottom-0 text-lg ml-5'>Created By TheBinod</h1>
-       <Analytics />
+       
     </>
   )
 }
