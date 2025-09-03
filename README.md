@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 ### Expanding the ESLint configuration
  
-If you are developing a production application, we recomm end  usi ng Typ eScr ipt with type-aware lint  rules enable d. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://types cript-eslint.io) in your project.  
+If you are developing a production application, we recomm end  usi ng Typ eScr ipt with type-aware lint  rules enable d. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://types cript-eslint.io) in your project.   
